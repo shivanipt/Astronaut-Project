@@ -35,15 +35,14 @@ function draw() {
   //background(255,255,255);  
 
   if(keyDown("UP_ARROW")){
-    astronaut.addAnimation(astroBrushImg);
-    astronaut.changeAnimation(astroBrushImg);
+    astronaut.addImage(astroBrushImg);
+    astronaut.changeImage(astroBrushImg);
     astronaut.y = 350;
     astronaut.velocityX = 0;
     astronaut.velocityY = 0;
   }
 
   if(keyDown("DOWN_ARROW")) {
-    astronaut.addAnimation(astroGym1Img);
     astronaut.changeAnimation(astroGym1Img);
     astronaut.y = 350;
     astronaut.velocityX = 1;
