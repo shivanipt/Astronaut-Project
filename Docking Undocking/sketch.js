@@ -1,13 +1,13 @@
 var background, backgroundImg;
 var astronaut;
-var astroBath, astroBathImg;
-var astroBrush, astroBrushImg;
-var astroDrink, astroDrinkImg;
-var astroEat, astroEatImg;
-var astroGym1, astroGym1Img;
-var astroGym12, astroGym12Img;
-var astroMove, astroMoveImg;
-var astroSleep, astroSleepImg;
+var astroBathImg;
+var astroBrushImg;
+var astroDrinkImg;
+var astroEatImg;
+var astroGym1Img;
+var astroGym12Img;
+var astroMoveImg;
+var astroSleepImg;
 
 function preload() {
   backgroundImg = loadImage("iss.png");
@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);  
+  //background(255,255,255);  
 
   if(keyDown("UP_ARROW")){
     astronaut.addAnimation(astroBrushImg);
@@ -43,8 +43,8 @@ function draw() {
   }
 
   if(keyDown("DOWN_ARROW")) {
-    astronaut.addAnimation(astroGymImg);
-    astronaut.changeAnimation(astroGymImg);
+    astronaut.addAnimation(astroGym1Img);
+    astronaut.changeAnimation(astroGym1Img);
     astronaut.y = 350;
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;

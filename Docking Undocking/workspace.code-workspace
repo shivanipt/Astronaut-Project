@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Astronaut's daily routine",
+			"path": "../Astronaut's daily routine"
+		},
+		{
+			"name": "Docking Undocking",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Docking Undocking"
+	}
+}
